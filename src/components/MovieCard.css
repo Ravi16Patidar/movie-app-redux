@@ -1,0 +1,46 @@
+.movie-card{
+    display: flex;
+    width:900px;
+    margin-bottom: 13px;
+    margin-top:13px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 3px 5px 2px 2px  rgb(151, 153, 151);
+}
+
+.left{
+    margin:10px;
+
+}
+.left img{
+    height:180px;
+    width:130px;
+}
+.right{
+    margin:10px;
+}
+.right .title{
+    font-size:1.3rem;
+    font-weight: bold;
+}
+
+ .unfavourite-btn {
+    background:rgb(206, 3, 3);
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    padding: 9px 4px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+ .favourite-btn {
+    background:rgb(10, 177, 10);
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    padding: 9px 4px;
+    border-radius: 5px;
+    cursor:pointer;
+}
